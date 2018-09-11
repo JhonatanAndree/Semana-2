@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,45 +22,45 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txt1 = New System.Windows.Forms.TextBox()
         Me.btnlanzar = New System.Windows.Forms.Button()
         Me.btnsiguiente = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
-        '
-        'txt1
-        '
-        Me.txt1.Location = New System.Drawing.Point(86, 32)
-        Me.txt1.Name = "txt1"
-        Me.txt1.Size = New System.Drawing.Size(169, 20)
-        Me.txt1.TabIndex = 0
         '
         'btnlanzar
         '
-        Me.btnlanzar.Location = New System.Drawing.Point(35, 85)
+        Me.btnlanzar.Location = New System.Drawing.Point(35, 60)
         Me.btnlanzar.Name = "btnlanzar"
         Me.btnlanzar.Size = New System.Drawing.Size(96, 31)
-        Me.btnlanzar.TabIndex = 1
+        Me.btnlanzar.TabIndex = 2
         Me.btnlanzar.Text = "Mensaje"
         Me.btnlanzar.UseVisualStyleBackColor = True
         '
         'btnsiguiente
         '
-        Me.btnsiguiente.Location = New System.Drawing.Point(182, 85)
+        Me.btnsiguiente.Location = New System.Drawing.Point(166, 60)
         Me.btnsiguiente.Name = "btnsiguiente"
         Me.btnsiguiente.Size = New System.Drawing.Size(140, 31)
-        Me.btnsiguiente.TabIndex = 1
+        Me.btnsiguiente.TabIndex = 3
         Me.btnsiguiente.Text = "Siguiente mensaje >"
         Me.btnsiguiente.UseVisualStyleBackColor = True
         '
-        'Form1
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(79, 13)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(194, 20)
+        Me.TextBox1.TabIndex = 4
+        '
+        'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(348, 149)
+        Me.ClientSize = New System.Drawing.Size(338, 120)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.btnsiguiente)
         Me.Controls.Add(Me.btnlanzar)
-        Me.Controls.Add(Me.txt1)
-        Me.Name = "Form1"
+        Me.Name = "Form2"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Mensajes"
@@ -69,7 +69,7 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents txt1 As TextBox
     Friend WithEvents btnlanzar As Button
     Friend WithEvents btnsiguiente As Button
+    Friend WithEvents TextBox1 As TextBox
 End Class

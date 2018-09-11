@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Operaciones Matemáticas.exe" version="1.0.0.0" publicKeyToken="45cc7b35df320add" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Operaciones Matemáticas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Operaciones Matemáticas.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Operaciones Matemáticas.exe" size="20504">
+      <assemblyIdentity name="Operaciones Matemáticas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HeQYBG3qKkrmWt9WlqohdlGMsZaiVeqvrN0rqEjTwmk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Operaciones Matemáticas.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JHONATANANDREE\Jhonatan Andree" issuerKeyHash="f07a351ca17e4132f69cb609b57c46f950cabc8d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3VhS0f3rUmUxFEsANfMCrvKK/7ouY6EgltznQySeBgU=</DigestValue></Reference></SignedInfo><SignatureValue>TpOWksV5yp2VJmS1qB0mWbfP3mO6ie0ybsqKUajLFRXv0unRBeaMLThWc5rH4vg8DnQtMuiCqwdNcSbJa3XJ1XXMxc68gMwf4wLOi7ALx5uW86838IhhqCPSe0aGDb/EtN3BkAjoLCNCcNdkllTsB/BIKgUEfj3m6PvDRZJvBhY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vbGcVuZZxEb9ZSm/IPRMLGa2fqa8AROrxVxeyRmCW1sIAce3y+tN6SAF8H8hCiQb6+lx2EyJ/Sbp6mkCfAtZKVhXoXftbVrJIntoe+NVSZ/z0Lt9YC459tsPxSq4uL6B+KvVQqJHy6mkNcVMImAUN9wmcMmPAitQ/shZ3xYxvwk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="05069e2443e7dc9620a1632ebaff8af2ae02f335004b14316552ebfdd15258dd" Description="" Url=""><as:assemblyIdentity name="Operaciones Matemáticas.exe" version="1.0.0.0" publicKeyToken="45cc7b35df320add" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JHONATANANDREE\Jhonatan Andree</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>K+airEZhszWavwKRqZ+EkPC03bKq/bBEjJKIpVqz2wg=</DigestValue></Reference></SignedInfo><SignatureValue>NnrsuOnJuOIN+ETSvy9j3iamGe4fqRCgTaO76lhNxHabtVO+dcU+lrCDgVDC7j/VejJ3HEjqDpQFMb48R2rhnlHG0/JtovVXiiZgima610QYvhdP5EXepEmJjet6MYEmWSIUM2B/fP3+xhfGIR7owaqq+P6JJuhGVXB6dfzbgwo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vbGcVuZZxEb9ZSm/IPRMLGa2fqa8AROrxVxeyRmCW1sIAce3y+tN6SAF8H8hCiQb6+lx2EyJ/Sbp6mkCfAtZKVhXoXftbVrJIntoe+NVSZ/z0Lt9YC459tsPxSq4uL6B+KvVQqJHy6mkNcVMImAUN9wmcMmPAitQ/shZ3xYxvwk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQRqRhf5j0gKZMz4Un3eXsuzANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwASgBIAE8ATgBBAFQAQQBOAEEATgBEAFIARQBFAFwASgBoAG8AbgBhAHQAYQBuACAAQQBuAGQAcgBlAGUwHhcNMTgwOTExMDYwMjIzWhcNMTkwOTExMTIwMjIzWjBHMUUwQwYDVQQDHjwASgBIAE8ATgBBAFQAQQBOAEEATgBEAFIARQBFAFwASgBoAG8AbgBhAHQAYQBuACAAQQBuAGQAcgBlAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL2xnFbmWcRG/WUpvyD0TCxmtn6mvAETq8VcXskZgltbCAHHt8vrTekgBfB/IQokG+vpcdhMif0m6eppAnwLWSlYV6F37W1aySJ7aHvjVUmf89C7fWAuOfbbD8UquLi+gfir1UKiR8uppDXFTCJgFDfcJnDJjwIrUP7IWd8WMb8JAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAFL2Cz1YFHYmSJftBrQbfyGhw2eughJVwcw7Dv025949NkbU0vnfsK+z5bMM0Tspxb/1PflNYvRvClt6gfgtNFND+JHbpybG0SYFmhNQ29rrr9uMt6Z/XxoVXWT+NwCS9Cv3UxCPA/xQ0VGP1PmdgpXoJyqJOmERGRtRQm6GyFd0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
